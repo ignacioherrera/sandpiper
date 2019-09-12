@@ -669,7 +669,7 @@ body {
 }
 
 .features-intro {
-	margin-bottom: 50px;
+	margin-bottom: 0;
 }
 
 .features-intro h2 {
@@ -728,7 +728,7 @@ body {
 }
 
 .card-text p {
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 400;
 	color: #000;
 	line-height: 1.6;
