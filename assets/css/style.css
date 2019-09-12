@@ -891,7 +891,30 @@ body {
 		-ms-flex-align: center;
 		align-items: center;
 		overflow: hidden;
-}
+	}
+
+	.ar-flex{
+		display: flex;
+		align-items: center;
+	}
+	.ar-flex .ar-text h3 {
+		font-size: 24px;
+		color: #000;
+	  font-weight: 400;
+	  line-height: 1.2;
+	  margin-bottom: 12px;
+	}
+
+	.ar-flex .ar-text p {
+		font-size: 15px;
+	  font-weight: 400;
+	  line-height: 1.6;
+	  color: #000;
+	}
+	.ar-flex .ar-icon{
+		width: 68px;
+		margin-right: 10px;
+	}
 
 	.ar-feature .ar-list {
 		-webkit-box-flex: 1;
