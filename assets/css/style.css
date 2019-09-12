@@ -284,8 +284,9 @@ body {
 }
 .header-banner {
 	background: rgb(251,251,251);
-	background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(240,240,240,1) 65%);
+	background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(240,240,240,1) 35%);
 	background-image: url("../images/header.png");
+	background-image: url("../images/header.png"), linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(240,240,240,1) 35%);
 	background-position: right center;
 	background-size: contain;
 	background-repeat: no-repeat;
