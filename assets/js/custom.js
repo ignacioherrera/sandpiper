@@ -122,8 +122,12 @@ $('.counter').counterUp({
 
 $(document).ready(function() {
       var  clientHeight = $(window).height();
+      var width = $(window).width();
     //Header al 100% de la pantalla del cliente
-    $('.fullHeight').height(clientHeight);
+    if(width>768){
+      $('.fullHeightHeader').height(clientHeight);
+    }
+    
      // jQuery Validation
      $("#chimp-form").validate({
          // if valid, post data via AJAX

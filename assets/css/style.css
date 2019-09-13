@@ -5,7 +5,7 @@
  4. hero-2 section
  5. Features Section
  6. Features Flex
- 7. Stats Section counter
+ 7. Stats Section 	
  8. Feature Single
  9. Reviews Section
  10. Pricing tables
@@ -131,6 +131,33 @@ body {
 	position: relative;
 }
 
+/*----Flex Features------------*/
+.f-text{
+	display: flex;
+	height: 100%;	
+	flex-direction: column;
+	justify-content: center;
+
+}
+.f-text h2{
+	font-size: 40px;
+	font-weight: 700;
+	color: #000;
+	line-height: 48px;
+}
+.f-text  p {
+	font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+	letter-spacing: 0;
+  color: #000;
+	max-width: 300px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.f-text .btn-action{
+	width: 60%;
+}
 
 /*------ Navbar Styling ------*/
 
@@ -145,10 +172,10 @@ body {
 
 .navbar .navbar-brand {
 	font-family: 'Lato';
-	font-size: 20px;
+	font-size: 30px;
 	font-weight: 900;
 	letter-spacing: 0;
-	color: #2680EB !important;
+	color: #000 !important;
 	vertical-align: middle;
 }
 
@@ -212,6 +239,15 @@ body {
 
 @media only screen and (max-width: 768px) {
 
+	.header-banner {
+		background: #fff;
+		background-image: url("../images/header-mac.png") !important;
+		background-position: center center !important;
+		background-size: contain;
+		margin-top: 60px;
+		min-height: 350px;
+	}
+
 	.navbar {
 		/*background: rgba(255, 255, 255, 0.99) !important;*/
 		padding-top: 10px;
@@ -227,7 +263,7 @@ body {
 	}
 
 	.navbar .btn-cta {
-		padding: 0 26px;
+		padding: 5px 26px;
 	}
 
 }
@@ -249,7 +285,7 @@ body {
 }
 
 .navbar.past-main .navbar-brand {
-	color: #2680EB !important;
+	color: #000 !important;
 }
 
 
@@ -263,7 +299,7 @@ body {
 }
 
 .nav-white.past-main .navbar-brand {
-	color: #364655;
+	color: #000;
 }
 
 .navbar.past-main span.navbar-toggler-icon {
@@ -282,10 +318,8 @@ body {
   padding: 0 0 50px 0;
 }
 .header-banner {
-	background: rgb(251,251,251);
-	background: linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(240,240,240,1) 35%);
-	background-image: url("../images/header.png");
-	background-image: url("../images/header.png"), linear-gradient(180deg, rgba(251,251,251,1) 0%, rgba(240,240,240,1) 35%);
+	background: #fff;
+	background-image: url("../images/header-semi.png");
 	background-position: right center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -302,7 +336,21 @@ body {
 	letter-spacing: 0;
 	color: #000;
 }
-
+.title-wrapper h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	letter-spacing: 0;
+	color: #000;
+}
+.title-wrapper p{
+	margin-top: 17px;
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0;
+	color: #000;
+}
 .centered {
 	float: none !important;
   margin-left: auto !important;
@@ -348,9 +396,9 @@ body {
 	text-decoration: none !important;
   white-space: nowrap;
   cursor: pointer;
-	background-color: transparent;
-  color: #387ed1;
-  border: 2px solid #387ed1 !important;
+	background-color: #0070F3;
+  color: #fff;
+  border: 1px solid transparent !important;
   border-radius: 30px;
   box-sizing: border-box;
 	-webkit-transition: 0.2s;
@@ -360,7 +408,7 @@ body {
 
 .btn-action:hover {
 	color: #FFFFFF;
-	background-color: #387ed1;
+	background-color: #0070F3;
 	box-shadow: 0 5px 25px 0 rgba(0, 0, 100,.2);
 	border: 2px solid transparent !important;
 	outline: none !important;
@@ -403,19 +451,19 @@ body {
 .btn-cta {
 	font-family: 'Lato', sans-serif;
 	display: inline-block;
-  height: 30px;
-  padding: 0 26px !important; 
+  padding: 10px 26px !important; 
   text-align: center;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
-  line-height: 28px;
-  letter-spacing: 1px;
+  line-height: 22px;
+  letter-spacing: 0px;
+  background-color: #0070F3 ;
 	text-transform: capitalize;
 	text-decoration: none !important;
 	white-space: nowrap;
 	cursor: pointer;
-	color: #387ed1 !important;
-	border: 2px solid #2680EB !important;
+	color: #fff!important;
+	border: 2px solid transparent !important;
 	border-radius: 30px;
 	box-sizing: border-box;
 	-webkit-transition: 0.2s;
@@ -424,7 +472,7 @@ body {
 }
 
 .btn-cta:hover {
-	background-color: #387ed1;
+	background-color: #0070F3;
 	color: #fff !important;
 	box-shadow: 0 5px 20px 0 rgba(0, 0, 0,.1);
 	border: 2px solid transparent !important;
@@ -433,7 +481,7 @@ body {
 }
 
 .btn-cta:focus, .btn-cta:active {
-	background: #2680EB;
+	background: #0070F3;
 	color: #FFFFFF !important;
 	border: 1px solid transparent !important;
 	outline: none !important;
@@ -562,7 +610,6 @@ body {
 	font-size: 12px;
 }
 
-
 /*----------- Flex Features ------------*/
 
 .flex-split {
@@ -623,7 +670,7 @@ body {
 .ft-text  p {
 	font-size: 18px;
   font-weight: 400;
-  line-height: 1.6;
+  line-height: 27px;
 	letter-spacing: 0;
   color: #000;
 	max-width: 630px;
@@ -1571,6 +1618,7 @@ body {
 
 	.navbar-nav {
 			margin-top: 0;
+			align-items: center;
 		}
 
 	.navbar-nav .nav-item {
@@ -1607,12 +1655,13 @@ body {
 	}
 
 	.flex-inner .f-text h2 {
-		font-size: 24px;
+		font-size: 26px;
 	}
 
 	.flex-inner .f-text  p {
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 400;
+		line-height: 27px;
 	}
 
 	.counter-up h3 {
