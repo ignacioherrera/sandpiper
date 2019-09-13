@@ -155,7 +155,7 @@ body {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
-.f-text .btn-action{
+.f-text .btn-cta{
 	width: 60%;
 }
 
@@ -457,6 +457,7 @@ body {
   font-weight: 700;
   line-height: 22px;
   letter-spacing: 0px;
+  max-width: 254px;
   background-color: #0070F3 ;
 	text-transform: capitalize;
 	text-decoration: none !important;
