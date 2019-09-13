@@ -211,14 +211,14 @@ body {
 	margin-right: 0;
 	margin-top: 1.5rem;
 	font-size: 14px !important;
-	font-weight: 700;
+	font-weight: 400;
   text-transform: capitalize;
   color: #000;
 }
 
 .navbar-nav .nav-item .nav-link {
   color: #000;
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .nav-white .nav-item .nav-link {
@@ -291,7 +291,7 @@ body {
 
 .nav-white.past-main .nav-item .nav-link {
   color: #364655;
-	font-weight:700;
+	font-weight: 400;
 }
 
 .navbar.past-main .nav-item .nav-link {
@@ -315,7 +315,7 @@ body {
 ----------------------------------------------------------*/
 
 .home {
-  padding: 0 0 50px 0;
+  padding: 0;
 }
 .header-banner {
 	background: #fff;
@@ -351,6 +351,27 @@ body {
 	letter-spacing: 0;
 	color: #000;
 }
+.f-column h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 0;
+	color: #000;
+	margin-top: 15px;
+}
+section{
+	padding-top: 130px;
+}
+.f-column p{
+	margin-top: 15px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0;
+	color: #000;
+	max-width: 244px;
+}
+
 .centered {
 	float: none !important;
   margin-left: auto !important;
@@ -446,6 +467,7 @@ body {
 .home .client-list ul li img:hover {
 	opacity: 0.9;
 }
+
 
 
 .btn-cta {
@@ -610,6 +632,8 @@ body {
 .hero-2 .form-note p {
 	font-size: 12px;
 }
+
+
 
 /*----------- Flex Features ------------*/
 
@@ -1616,9 +1640,39 @@ body {
 /*------------------------------------------
 -------------- Media Queries ---------------
 ------------------------------------------*/
-
+@media only screen and (min-width: 767px) and (max-width: 1108px) {
+	.counter-up h3 {
+		font-size: 60px !important;
+		font-weight: 900;
+		color: #2680EB;
+	}
+	
+	.counter-up .counter-text h3 {
+	  font-size: 18px !important;
+	  font-weight: 700;
+	  padding: 0.5em;
+	  letter-spacing: 0;
+	  line-height: 24px !important;
+	  color: #000
+	
+	}
+	
+}
+@media only screen and (min-width: 768px) {
+	.f-center{
+		margin-top: -50px;
+	}
+	.margin-column{
+		margin-top: 104px!important;
+	}
+}
 @media only screen and (min-width: 767px) {
 
+	
+
+	.mt-md-6{
+		margin-top: 5rem!important;
+	}
 	.navbar-nav {
 			margin-top: 0;
 			align-items: center;
