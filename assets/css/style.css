@@ -67,12 +67,12 @@ table {
 /* --- Common Styles ---*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
 
 p {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 }
 
@@ -156,13 +156,13 @@ body {
 	margin-bottom: 15px;
 }
 .f-text .btn-cta{
-	width: 60%;
+	width: 254px;
 }
 
 /*------ Navbar Styling ------*/
 
 .navbar {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	background-color: transparent !important;
@@ -171,7 +171,7 @@ body {
 }
 
 .navbar .navbar-brand {
-	font-family: 'Lato';
+	font-family: 'Roboto';
 	font-size: 30px;
 	font-weight: 900;
 	letter-spacing: 0;
@@ -331,13 +331,13 @@ body {
 	margin: 0 auto;
 }
 .home .hero-content p{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	letter-spacing: 0;
 	color: #000;
 }
 .title-wrapper h2{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 40px;
 	font-weight: 700;
 	letter-spacing: 0;
@@ -345,7 +345,7 @@ body {
 }
 .title-wrapper p{
 	margin-top: 17px;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
 	letter-spacing: 0;
@@ -383,7 +383,7 @@ body {
 }
 
 .btn-action {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	display: inline-block;
   height: 38px;
   padding: 0 30px;
@@ -449,7 +449,7 @@ body {
 
 
 .btn-cta {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	display: inline-block;
   padding: 10px 26px !important; 
   text-align: center;
@@ -529,7 +529,7 @@ body {
 
 .hero-2 .form-alt input {
   color: #222222;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 0;
   font-size: 13px;
 	font-weight: 400;
@@ -554,7 +554,7 @@ body {
   margin-left: -25px;
   padding: 0 25px 0 25px;
 	background: #2680EB;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
 	text-transform: capitalize;
@@ -574,7 +574,7 @@ body {
 	left: 0;
 	right: 0;
 	bottom: -50%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	color: #FF3333;
@@ -585,7 +585,7 @@ body {
 	left: 0;
 	bottom: -45%;
 	vertical-align: middle;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px !important;
 	font-weight: 400;
 	color: #15ccbe;
@@ -596,7 +596,7 @@ body {
 	left: 0;
 	bottom: -45%;
 	vertical-align: middle;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	color: red;
@@ -846,9 +846,11 @@ body {
 }
 
 .counter-up .counter-text h3 {
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 700;
   padding: 0.5em;
+  letter-spacing: 0;
+  line-height: 27px;
   color: #000
 
 }
@@ -859,7 +861,7 @@ body {
 }
 
 .yd-link a {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 15px;
 	font-weight: 400;
 	color: #2680EB;
@@ -1084,7 +1086,7 @@ body {
 
 	.table-left .pricing-details span, .table-right .pricing-details span {
 		display: block;
-		font-family: 'Lato', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 32px;
 		font-weight: 600;
 		color: #364655;
@@ -1114,7 +1116,7 @@ body {
 	}
 
 	.table-left .pricing-details li, .table-right .pricing-details li {
-		font-family: 'Lato', sans-serif;
+		font-family: 'Roboto', sans-serif;
 		font-size: 16px;
 		font-weight: 400;
 		color: #97a6b5;
@@ -1281,7 +1283,7 @@ body {
 }
 
 .yd-reviews .card-single .review-attribution a {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
 	color: #2680EB;
@@ -1375,7 +1377,7 @@ body {
 	width: 100%;
 	margin: 0 auto;
   color: #2680EB;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   padding: 0;
   font-size: 13px;
 	font-weight: 700;
@@ -1403,7 +1405,7 @@ body {
 	margin: 15px 0;
   padding: 0 25px 0 25px;
 	background: #2680EB;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: capitalize;
@@ -1430,7 +1432,7 @@ body {
 	left: 0;
 	right: 0;
 	bottom: -50%;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	color: #FF3333;
@@ -1441,7 +1443,7 @@ body {
 	left: 0;
 	bottom: -45%;
 	vertical-align: middle;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px !important;
 	font-weight: 400;
 	color: #15ccbe;
@@ -1453,7 +1455,7 @@ body {
 	right: 0;
 	bottom: -45%;
 	vertical-align: middle;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	font-weight: 400;
 	color: red;
@@ -1487,7 +1489,7 @@ body {
 }
 
 .footer-sm .footer-logo {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	font-weight: 600;
 	color: #2680EB;
@@ -1512,7 +1514,7 @@ body {
 }
 
 .footer-sm ul li {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
   font-size: 13px;
   font-weight: 400;
 	letter-spacing: 0;
@@ -1586,7 +1588,7 @@ body {
 }
 
 .back-to-top {
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 	font-weight: 700;
 	color: #FFFFFF;
