@@ -171,7 +171,7 @@ body {
 }
 
 .navbar .navbar-brand {
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	font-size: 30px;
 	font-weight: 900;
 	letter-spacing: 0;
@@ -268,8 +268,8 @@ body {
 
 }
 .navbar.past-main {
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	background-color: rgba(255, 255, 255, 0.99) !important;
 	-webkit-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
 	-moz-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
@@ -283,9 +283,15 @@ body {
 .navbar.effect-main .navbar-nav{
 	background: transparent;
 }
+.navbar.effect-main{
+	background-color: #fff !important;
+}
 
 .navbar.past-main .navbar-brand {
 	color: #000 !important;
+}
+.navbar.past-main .navbar-brand.btn-cta{
+	color: #fff !important;
 }
 
 
@@ -295,7 +301,7 @@ body {
 }
 
 .navbar.past-main .nav-item .nav-link {
-	font-weight: 700;
+	font-weight: 400;
 }
 
 .nav-white.past-main .navbar-brand {
@@ -468,7 +474,16 @@ section{
 	opacity: 0.9;
 }
 
-
+.navbar-brand.btn-cta{
+	padding: 10px 26px !important;
+	cursor: pointer;
+	color: #fff!important;
+	border: 2px solid transparent !important;
+	border-radius: 30px;
+	background-color: #0070F3 ;
+	font-weight: 400;
+	font-size: 18px;
+}
 
 .btn-cta {
 	font-family: 'Roboto', sans-serif;
@@ -954,7 +969,7 @@ section{
 ---------------------------------------------------*/
 
 	.ar-ft-single {
-		padding: 100px 0;
+		padding: 100px 0 50px;
 	}
 
 	.ar-feature {
@@ -987,6 +1002,8 @@ section{
 	.ar-flex .ar-icon{
 		width: 68px;
 		margin-right: 10px;
+		border-radius: 50%;
+		background-color: #0070F3;
 	}
 
 	.ar-feature .ar-list {
@@ -1356,7 +1373,7 @@ section{
 
 
 .cta-sm {
-	padding: 100px 0 100px 0;
+	padding: 50px 0 100px 0;
 }
 
 .cta-sm .cta-content {

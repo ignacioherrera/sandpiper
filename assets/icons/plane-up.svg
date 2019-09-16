@@ -1,0 +1,14 @@
+<svg id="Group_230" data-name="Group 230" xmlns="http://www.w3.org/2000/svg" width="38.451" height="25.322" viewBox="0 0 38.451 25.322">
+  <g id="takeoff-the-plane" transform="translate(0 0)">
+    <g id="Group_215" data-name="Group 215" transform="translate(0)">
+      <g id="Group_214" data-name="Group 214" transform="translate(0 0)">
+        <path id="Path_148" data-name="Path 148" d="M3.841,71.195l0,0A.835.835,0,0,0,3.43,72.28a.9.9,0,0,0,1.1.477L16.894,68.8l-2.313,3.627a.667.667,0,0,0,.087.828.738.738,0,0,0,.854.141l2.426-1.21a.712.712,0,0,0,.187-.135l7.186-7.208L34.189,60.4c3.359-1.739,2.97-3.075,2.77-3.443a1.887,1.887,0,0,0-1.267-.871,7.84,7.84,0,0,0-3.213.05,4.331,4.331,0,0,1-.987.066c-.949-.025-1.593.036-4.79,1.631L9.216,66.564l-6.781-3.38a.917.917,0,0,0-.816,0l-1.143.57a.855.855,0,0,0-.458.579.825.825,0,0,0,.176.707L4.9,70.671Z" transform="translate(0 -55.948)" fill="#0070f3"/>
+        <path id="Path_149" data-name="Path 149" d="M47.134,282.5H14.03a1.62,1.62,0,1,0,0,3.237h33.1a1.62,1.62,0,1,0,0-3.237Z" transform="translate(-11.091 -260.416)" fill="#0070f3"/>
+      </g>
+    </g>
+  </g>
+  <g id="Group_223" data-name="Group 223" transform="translate(33.149 9.688)">
+    <path id="Polygon_1" data-name="Polygon 1" d="M2.651,0,5.3,4.073H0Z" transform="translate(0)" fill="#0070f3"/>
+    <rect id="Rectangle_402" data-name="Rectangle 402" width="3.181" height="4.073" transform="translate(1.06 3.564)" fill="#0070f3"/>
+  </g>
+</svg>
