@@ -163,11 +163,14 @@ body {
 
 .navbar {
   font-family: 'Roboto', sans-serif;
-	padding-top: 25px;
-	padding-bottom: 25px;
-	background-color: transparent !important;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #fff !important;
 	-webkit-transition: 0.5s all ease;
 	transition: 0.5s all ease;
+	-webkit-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.3);
+	-moz-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.3);
+	box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.3);
 }
 
 .navbar .navbar-brand {
@@ -271,9 +274,9 @@ body {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background-color: rgba(255, 255, 255, 0.99) !important;
-	-webkit-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
-	-moz-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
-	box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.1);
+	-webkit-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.3);
+	-moz-box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.3);
+	box-shadow: 0 2px 3px 0 rgba(96, 96, 96, 0.3);
 }
 
 .navbar.effect-main {
@@ -1373,7 +1376,7 @@ section{
 
 
 .cta-sm {
-	padding: 50px 0 100px 0;
+	padding: 150px 0 100px 0;
 }
 
 .cta-sm .cta-content {
@@ -1508,9 +1511,9 @@ section{
 }
 
 .form-note p {
-	font-size: 12px;
+	font-size: 14px;
 	font-weight: 400;
-	color: #97a6b5
+	color: #000;
 }
 
 
