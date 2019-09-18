@@ -1919,6 +1919,18 @@ max-width: 461px;
 	}
 }
 
+@media screen and (max-width: 450px) {
+	.mr-50{
+		margin-right: 10px !important;
+	}
+	.counter{
+		font-size: 60px !important;
+	}
+	.counter-up .counter-text h3{
+		font-size: 18px !important;
+	}
+}
+
 @media screen and (max-width: 420px) {
 	.hero-2 .form-alt input {
 	    text-align: center;
