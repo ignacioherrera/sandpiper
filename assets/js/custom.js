@@ -124,7 +124,7 @@ jQuery(function ($) {
     var clientHeight = $(window).height();
     var width = $(window).width();
     //Header al 100% de la pantalla del cliente
-    if (width > 768) {
+    if (width >= 768) {
       $('.fullHeightHeader').height(clientHeight);
     }
     $(window).resize(function () {
