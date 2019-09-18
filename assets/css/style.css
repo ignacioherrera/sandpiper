@@ -242,7 +242,11 @@ body {
 .nav-white .navbar-brand {
 	color: #FFFFFF;
 }
-
+.btn-cta.nav-link {
+	padding: 5px 26px !important;
+	font-size: 14px !important;
+	font-weight: 500 !important;
+}
 @media only screen and (max-width: 767.5px) {
 
 	.header-banner {
@@ -268,8 +272,9 @@ body {
 		color: #4957B8;
 	}
 
-	.navbar .btn-cta {
-		padding: 5px 26px;
+	.nav-item.btn-cta {
+		padding: 5px 26px !important;
+		font-size: 14px !important;
 	}
 
 }
@@ -497,8 +502,8 @@ section{
 	border: 2px solid transparent !important;
 	border-radius: 30px;
 	background-color: #0070F3 ;
-	font-weight: 400;
-	font-size: 18px;
+	font-weight: 500;
+	font-size: 14px;
 }
 
 .btn-cta {
