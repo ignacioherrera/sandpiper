@@ -136,6 +136,25 @@ jQuery(function ($) {
       }
     });
 
+
+    //gallery section
+    $(".carousel-link").click(function(event){
+        event.preventDefault();
+        var href = $(this).attr("href");
+        $('.gallery-container .active').removeClass('active');
+        $(href).addClass('active');
+    });
+
+
+
+
+
+
+
+
+
+
+
     // jQuery Validation
     $("#chimp-form").validate({
       // if valid, post data via AJAX

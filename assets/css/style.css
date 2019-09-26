@@ -1336,6 +1336,22 @@ footer p {
   margin-top: 0;
 }
 
+.gallery-container img.active{
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+.gallery-container img{
+  width: 50%;
+  height: auto;
+  -webkit-transition: 200ms;
+  -moz-transition: 200ms;
+  -o-transition: 200ms;
+  transition: 200ms;
+}
+
+
 /*------------------------------------------------
 ---------- Ar Review Section Styling -------------
 ------------------------------------------------*/
