@@ -202,7 +202,7 @@ body {
 }
 .separator {
   width: 196px;
-  border-bottom: 2px solid #0070f3;
+  border-bottom: 4px solid #0070f3;
   margin-top: 14px;
 }
 .separator.separator-large {
@@ -254,6 +254,7 @@ body {
 .f-text .btn-cta {
   width: 254px;
 }
+
 
 /*------ Navbar Styling ------*/
 
@@ -422,7 +423,7 @@ body {
 ----------------------------------------------------------*/
 
 .header-back {
-  background-image: url("../images/header-back.png");
+  background-image: url("../images/BGbig.png");
   background-size: cover;
   background-position: center bottom;
 }
@@ -484,13 +485,32 @@ body {
   color: #000;
   margin-top: 15px;
 }
+.f-column svg path.a, .f-column svg path, .f-column svg text, .f-column svg rect{
+  fill:#000;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  transition: 0.2s;
+}
+.f-column:hover svg #cloud{
+  fill: #d7e9ff !important;
+}
+.f-column svg #cloud{
+  fill: #c2c2c2 !important;
+}
+.f-column:hover svg path.a, .f-column:hover svg path, .f-column:hover svg text, .f-column:hover svg rect{
+  fill:#0070F3;
+  transition: ease 300;
+}
 section {
   padding-top: 100px;
 }
 .f-column {
   padding: 36px 14px;
-  box-shadow: #00000029 0 3px 6px;
+  box-shadow: #0070F340 0 5px 10px;
   border-radius: 20px;
+}
+.f-column:hover{
+  box-shadow: #0070F340 0 5px 30px;
 }
 .f-column p {
   margin-top: 15px;
@@ -561,7 +581,7 @@ section {
 .btn-action:hover {
   color: #ffffff;
   background-color: #0070f3;
-  box-shadow: 0 5px 25px 0 rgba(0, 0, 100, 0.2);
+  box-shadow: #0070F340 0 5px 10px; 
   border: 2px solid transparent !important;
   outline: none !important;
   text-decoration: none;
@@ -569,7 +589,7 @@ section {
 
 .btn-action:focus,
 .btn-action:active {
-  background: #2680eb;
+  background: #0070F3;
   color: #ffffff;
   border: 1px solid transparent !important;
   outline: none !important;
@@ -636,7 +656,7 @@ section {
 .btn-cta:hover {
   background-color: #0070f3;
   color: #fff !important;
-  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: #0070F340 0 5px 10px; 
   border: 2px solid transparent !important;
   outline: none;
   text-decoration: none !important;
@@ -712,7 +732,7 @@ section {
   border-radius: 0 4px 4px 0;
   margin-left: -25px;
   padding: 0 25px 0 25px;
-  background: #2680eb;
+  background: #0070F3;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1027,7 +1047,7 @@ section {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: #2680eb;
+  color: #0070F3;
   color: #ffffff;
   text-decoration: none;
   border-bottom: 1px solid #fff;
@@ -1036,13 +1056,13 @@ section {
 .yd-ft {
   padding: 75px 0;
   background: #e8f3ec;
-  background: #2680eb;
+  background: #0070F3;
 }
 
 .yd-ft .yd-ft-inner {
   display: block;
   background: #e8f3ec;
-  background: #2680eb;
+  background: #0070F3;
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -1072,7 +1092,7 @@ section {
 
 .yd-ft .yd-ft-inner .yd-ft-left .btn-action {
   background: #fff;
-  color: #2680eb;
+  color: #0070F3;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
@@ -1268,7 +1288,7 @@ footer p {
 .table-right .pricing-details h2 {
   font-size: 21px;
   font-weight: 600;
-  color: #2680eb;
+  color: #0070F3;
   margin-bottom: 30px;
 }
 
@@ -1319,7 +1339,43 @@ footer p {
 /*------------------------------------------------
 ---------- Ar Review Section Styling -------------
 ------------------------------------------------*/
+.reviews h3{
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+  line-height: 67px;
+  text-transform: uppercase;
+}
 
+.reviews h4{
+  font-weight: 400;
+  font-size: 32px;
+  color: #000;
+  line-height: 43px;
+  margin-bottom: 30px;
+}
+.reviews p{
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+  line-height: 34px;
+}
+.reviews .col-md-4{
+  padding: 0 20px;
+}
+.review:hover{
+  box-shadow: #0070F340 0 5px 30px; 
+}
+.review{
+  box-shadow: #0070F340 0 5px 10px; 
+  padding: 60px 40px;
+}
+.review:hover h3{
+color: #0070F3;
+}
+.review:hover p span{
+  color: #0070F3;
+  }
 .ar-reviews {
   padding: 5%;
   background: url(../images/bg.jpg) no-repeat center center;
@@ -1327,7 +1383,7 @@ footer p {
 }
 
 .ar-reviews .ar-box {
-  background: #2680eb;
+  background: #0070F3;
   display: block;
   padding: 50px;
 }
@@ -1354,7 +1410,7 @@ footer p {
 
 .ar-box .ar-left .btn-action {
   background: #fff;
-  color: #2680eb;
+  color: #0070F3;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
@@ -1411,7 +1467,7 @@ footer p {
   -webkit-box-flex: 1;
   -ms-flex: 1 0 50%;
   flex: 1 0 50%;
-  background: #2680eb;
+  background: #0070F3;
   padding: 60px;
   text-align: left;
 }
@@ -1457,7 +1513,7 @@ footer p {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
-  color: #2680eb;
+  color: #0070F3;
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -1470,7 +1526,7 @@ footer p {
   height: 1px;
   bottom: -3px;
   left: 0;
-  background-color: #2680eb;
+  background-color: #0070F3;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -1551,13 +1607,13 @@ footer p {
   display: block;
   width: 100%;
   margin: 0 auto;
-  color: #2680eb;
+  color: #0070F3;
   font-family: "Roboto", sans-serif;
   padding: 0;
   font-size: 13px;
   font-weight: 700;
   height: 50px;
-  border: 2px solid #2680eb;
+  border: 2px solid #0070F3;
   border-radius: 30px;
   background-color: #ffffff;
   outline: none;
@@ -1568,7 +1624,7 @@ footer p {
 .form input:focus {
   outline: none !important;
   background: #ffffff;
-  border: 1px solid #2680eb;
+  border: 1px solid #0070F3;
 }
 
 .form .submit-button {
@@ -1579,7 +1635,7 @@ footer p {
   margin: 0 auto;
   margin: 15px 0;
   padding: 0 25px 0 25px;
-  background: #2680eb;
+  background: #0070F3;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -1595,12 +1651,12 @@ footer p {
 }
 
 .form .submit-button:hover {
-  box-shadow: 0 5px 25px 0 rgba(0, 0, 100, 0.2);
+  box-shadow: #0070F340 0 5px 10px; 
 }
 
 .form .submit-button:focus,
 .form .submit-button:active {
-  background: #2680eb;
+  background: #0070F3;
 }
 
 #email-error {
@@ -1667,7 +1723,7 @@ footer p {
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #2680eb;
+  color: #0070F3;
   letter-spacing: 0;
   display: block;
   margin-bottom: 15px;
@@ -1714,7 +1770,7 @@ footer p {
   height: 1px;
   bottom: -3px;
   left: 0;
-  background-color: #2680eb;
+  background-color: #0070F3;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -1746,7 +1802,7 @@ footer p {
   display: none;
   width: 45px;
   height: 45px;
-  background: #2680eb;
+  background: #0070F3;
   color: #f2f2f0;
   border-radius: 50%;
   display: table;
@@ -1806,7 +1862,7 @@ footer p {
     padding: 0.5em;
     letter-spacing: 0;
     line-height: 24px !important;
-    color: #000;
+    color: #fff;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -1815,6 +1871,9 @@ footer p {
   }
   .margin-column {
     margin-top: 104px !important;
+  }
+  .margin-column-down{
+    margin-top: 55px !important;
   }
 }
 @media only screen and (min-width: 767px) {
