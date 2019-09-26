@@ -280,8 +280,8 @@ body {
 }
 
 .navbar .navbar-brand img {
-  vertical-align: middle;
-  margin-right: 0.3em;
+  width: auto;
+  height: 32px;
 }
 
 .navbar .navbar-toggler {
@@ -1369,6 +1369,7 @@ footer p {
 .review{
   box-shadow: #0070F340 0 5px 10px; 
   padding: 60px 40px;
+  border-radius: 15px
 }
 .review:hover h3{
 color: #0070F3;
