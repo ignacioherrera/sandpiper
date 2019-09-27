@@ -144,6 +144,11 @@ jQuery(function ($) {
         $('.gallery-container .active').removeClass('active');
         $(href).addClass('active');
     });
+    $(".img-gallery").click(function(event){
+      $('.gallery-container .active').removeClass('active');
+      $(this).addClass('active');
+  });
+    
 
 
 
