@@ -1335,7 +1335,12 @@ footer p {
 .pricing-section .table-center {
   margin-top: 0;
 }
-
+.img-gallery{
+  cursor: pointer;
+}
+.img-gallery.active{
+  cursor: default;
+}
 .gallery-container img.active{
   position: absolute;
   top: 0;
