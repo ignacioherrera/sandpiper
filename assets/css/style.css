@@ -2101,6 +2101,8 @@ footer p {
     background: -ms-linear-gradient(top, rgba(0, 73, 133, 1) 0%, rgba(79, 137, 181, 1) 100%);
     background: linear-gradient(to bottom, rgba(0, 73, 133, 1) 0%, rgba(79, 137, 181, 1) 100%);
     background-image: url("../images/BG.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }
 @media screen and (max-width: 450px) {
