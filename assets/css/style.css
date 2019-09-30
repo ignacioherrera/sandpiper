@@ -255,7 +255,6 @@ body {
   width: 254px;
 }
 
-
 /*------ Navbar Styling ------*/
 
 .navbar {
@@ -485,20 +484,26 @@ body {
   color: #000;
   margin-top: 15px;
 }
-.f-column svg path.a, .f-column svg path, .f-column svg text, .f-column svg rect{
-  fill:#000;
+.f-column svg path.a,
+.f-column svg path,
+.f-column svg text,
+.f-column svg rect {
+  fill: #000;
   -webkit-transition: 0.2s;
   -moz-transition: 0.2s;
   transition: 0.2s;
 }
-.f-column:hover svg #cloud{
+.f-column:hover svg #cloud {
   fill: #d7e9ff !important;
 }
-.f-column svg #cloud{
+.f-column svg #cloud {
   fill: #c2c2c2 !important;
 }
-.f-column:hover svg path.a, .f-column:hover svg path, .f-column:hover svg text, .f-column:hover svg rect{
-  fill:#0070F3;
+.f-column:hover svg path.a,
+.f-column:hover svg path,
+.f-column:hover svg text,
+.f-column:hover svg rect {
+  fill: #0070f3;
   transition: ease 300;
 }
 section {
@@ -506,11 +511,11 @@ section {
 }
 .f-column {
   padding: 36px 14px;
-  box-shadow: #0070F340 0 5px 10px;
+  box-shadow: #0070f340 0 5px 10px;
   border-radius: 20px;
 }
-.f-column:hover{
-  box-shadow: #0070F340 0 5px 30px;
+.f-column:hover {
+  box-shadow: #0070f340 0 5px 30px;
 }
 .f-column p {
   margin-top: 15px;
@@ -581,7 +586,7 @@ section {
 .btn-action:hover {
   color: #ffffff;
   background-color: #0070f3;
-  box-shadow: #0070F340 0 5px 10px; 
+  box-shadow: #0070f340 0 5px 10px;
   border: 2px solid transparent !important;
   outline: none !important;
   text-decoration: none;
@@ -589,7 +594,7 @@ section {
 
 .btn-action:focus,
 .btn-action:active {
-  background: #0070F3;
+  background: #0070f3;
   color: #ffffff;
   border: 1px solid transparent !important;
   outline: none !important;
@@ -656,7 +661,7 @@ section {
 .btn-cta:hover {
   background-color: #0070f3;
   color: #fff !important;
-  box-shadow: #0070F340 0 5px 10px; 
+  box-shadow: #0070f340 0 5px 10px;
   border: 2px solid transparent !important;
   outline: none;
   text-decoration: none !important;
@@ -732,7 +737,7 @@ section {
   border-radius: 0 4px 4px 0;
   margin-left: -25px;
   padding: 0 25px 0 25px;
-  background: #0070F3;
+  background: #0070f3;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -1047,7 +1052,7 @@ section {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: #0070F3;
+  color: #0070f3;
   color: #ffffff;
   text-decoration: none;
   border-bottom: 1px solid #fff;
@@ -1056,13 +1061,13 @@ section {
 .yd-ft {
   padding: 75px 0;
   background: #e8f3ec;
-  background: #0070F3;
+  background: #0070f3;
 }
 
 .yd-ft .yd-ft-inner {
   display: block;
   background: #e8f3ec;
-  background: #0070F3;
+  background: #0070f3;
   max-width: 1024px;
   margin: 0 auto;
 }
@@ -1092,7 +1097,7 @@ section {
 
 .yd-ft .yd-ft-inner .yd-ft-left .btn-action {
   background: #fff;
-  color: #0070F3;
+  color: #0070f3;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
@@ -1288,7 +1293,7 @@ footer p {
 .table-right .pricing-details h2 {
   font-size: 21px;
   font-weight: 600;
-  color: #0070F3;
+  color: #0070f3;
   margin-bottom: 30px;
 }
 
@@ -1335,19 +1340,19 @@ footer p {
 .pricing-section .table-center {
   margin-top: 0;
 }
-.img-gallery{
+.img-gallery {
   cursor: pointer;
 }
-.img-gallery.active{
+.img-gallery.active {
   cursor: default;
 }
-.gallery-container img.active{
+.gallery-container img.active {
   position: absolute;
   top: 0;
   height: 100%;
   width: auto;
 }
-.gallery-container img{
+.gallery-container img {
   width: 50%;
   height: auto;
   -webkit-transition: 200ms;
@@ -1356,11 +1361,10 @@ footer p {
   transition: 200ms;
 }
 
-
 /*------------------------------------------------
 ---------- Ar Review Section Styling -------------
 ------------------------------------------------*/
-.reviews h3{
+.reviews h3 {
   font-weight: 700;
   font-size: 24px;
   color: #000;
@@ -1368,36 +1372,36 @@ footer p {
   text-transform: uppercase;
 }
 
-.reviews h4{
+.reviews h4 {
   font-weight: 400;
   font-size: 32px;
   color: #000;
   line-height: 43px;
   margin-bottom: 30px;
 }
-.reviews p{
+.reviews p {
   font-weight: 400;
   font-size: 24px;
   color: #000;
   line-height: 34px;
 }
-.reviews .col-md-4{
+.reviews .col-md-4 {
   padding: 0 20px;
 }
-.review:hover{
-  box-shadow: #0070F340 0 5px 30px; 
+.review:hover {
+  box-shadow: #0070f340 0 5px 30px;
 }
-.review{
-  box-shadow: #0070F340 0 5px 10px; 
+.review {
+  box-shadow: #0070f340 0 5px 10px;
   padding: 60px 40px;
-  border-radius: 15px
+  border-radius: 15px;
 }
-.review:hover h3{
-color: #0070F3;
+.review:hover h3 {
+  color: #0070f3;
 }
-.review:hover p span{
-  color: #0070F3;
-  }
+.review:hover p span {
+  color: #0070f3;
+}
 .ar-reviews {
   padding: 5%;
   background: url(../images/bg.jpg) no-repeat center center;
@@ -1405,7 +1409,7 @@ color: #0070F3;
 }
 
 .ar-reviews .ar-box {
-  background: #0070F3;
+  background: #0070f3;
   display: block;
   padding: 50px;
 }
@@ -1432,7 +1436,7 @@ color: #0070F3;
 
 .ar-box .ar-left .btn-action {
   background: #fff;
-  color: #0070F3;
+  color: #0070f3;
   letter-spacing: 1px;
   text-transform: capitalize;
 }
@@ -1489,7 +1493,7 @@ color: #0070F3;
   -webkit-box-flex: 1;
   -ms-flex: 1 0 50%;
   flex: 1 0 50%;
-  background: #0070F3;
+  background: #0070f3;
   padding: 60px;
   text-align: left;
 }
@@ -1535,7 +1539,7 @@ color: #0070F3;
   font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
-  color: #0070F3;
+  color: #0070f3;
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -1548,7 +1552,7 @@ color: #0070F3;
   height: 1px;
   bottom: -3px;
   left: 0;
-  background-color: #0070F3;
+  background-color: #0070f3;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -1629,13 +1633,13 @@ color: #0070F3;
   display: block;
   width: 100%;
   margin: 0 auto;
-  color: #0070F3;
+  color: #0070f3;
   font-family: "Roboto", sans-serif;
   padding: 0;
   font-size: 13px;
   font-weight: 700;
   height: 50px;
-  border: 2px solid #0070F3;
+  border: 2px solid #0070f3;
   border-radius: 30px;
   background-color: #ffffff;
   outline: none;
@@ -1646,7 +1650,7 @@ color: #0070F3;
 .form input:focus {
   outline: none !important;
   background: #ffffff;
-  border: 1px solid #0070F3;
+  border: 1px solid #0070f3;
 }
 
 .form .submit-button {
@@ -1657,7 +1661,7 @@ color: #0070F3;
   margin: 0 auto;
   margin: 15px 0;
   padding: 0 25px 0 25px;
-  background: #0070F3;
+  background: #0070f3;
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -1673,12 +1677,12 @@ color: #0070F3;
 }
 
 .form .submit-button:hover {
-  box-shadow: #0070F340 0 5px 10px; 
+  box-shadow: #0070f340 0 5px 10px;
 }
 
 .form .submit-button:focus,
 .form .submit-button:active {
-  background: #0070F3;
+  background: #0070f3;
 }
 
 #email-error {
@@ -1745,7 +1749,7 @@ color: #0070F3;
   font-family: "Roboto", sans-serif;
   font-size: 18px;
   font-weight: 600;
-  color: #0070F3;
+  color: #0070f3;
   letter-spacing: 0;
   display: block;
   margin-bottom: 15px;
@@ -1792,7 +1796,7 @@ color: #0070F3;
   height: 1px;
   bottom: -3px;
   left: 0;
-  background-color: #0070F3;
+  background-color: #0070f3;
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
@@ -1824,7 +1828,7 @@ color: #0070F3;
   display: none;
   width: 45px;
   height: 45px;
-  background: #0070F3;
+  background: #0070f3;
   color: #f2f2f0;
   border-radius: 50%;
   display: table;
@@ -1894,7 +1898,7 @@ color: #0070F3;
   .margin-column {
     margin-top: 104px !important;
   }
-  .margin-column-down{
+  .margin-column-down {
     margin-top: 55px !important;
   }
 }
@@ -2090,7 +2094,13 @@ color: #0070F3;
     max-width: 300px;
   }
   .header-back {
-	  background-image: url('../images/BG.svg');
+    background: rgba(0, 73, 133, 1);
+    background: -moz-linear-gradient(top, rgba(0, 73, 133, 1) 0%, rgba(79, 137, 181, 1) 100%);
+    background: -webkit-linear-gradient(top, rgba(0, 73, 133, 1) 0%, rgba(79, 137, 181, 1) 100%);
+    background: -o-linear-gradient(top, rgba(0, 73, 133, 1) 0%, rgba(79, 137, 181, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(0, 73, 133, 1) 0%, rgba(79, 137, 181, 1) 100%);
+    background: linear-gradient(to bottom, rgba(0, 73, 133, 1) 0%, rgba(79, 137, 181, 1) 100%);
+    background-image: url("../images/BG.svg");
   }
 }
 @media screen and (max-width: 450px) {
