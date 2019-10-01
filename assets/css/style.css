@@ -546,7 +546,8 @@ section {
   margin: 20px 0;
 }
 .header-img {
-  max-height: 350px;
+  width: auto;
+  height: 100%;
 }
 .home h1 {
   font-size: 50px;
@@ -2124,6 +2125,10 @@ footer p {
 
 @media screen and (max-width: 767.9px) {
  
+  .header-img {
+    width: 100% !important;
+    height: auto !important;
+  }
   .header-back {
     background: rgba(0, 73, 133, 1);
     background: -moz-linear-gradient(top, rgba(0, 73, 133, 1) 0%, rgba(79, 137, 181, 1) 100%);

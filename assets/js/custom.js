@@ -126,13 +126,16 @@ jQuery(function ($) {
     //Header al 100% de la pantalla del cliente
     if (width >= 768) {
       $('.fullHeightHeader').height(clientHeight);
+      $('.fullHeightNoMenu').height(clientHeight-130);
     }
+    
     $(window).resize(function () {
       clientHeight = $(window).height();
       width = $(window).width();
       //Header al 100% de la pantalla del cliente
       if (width > 768) {
         $('.fullHeightHeader').height(clientHeight);
+        $('.fullHeightNoMenu').height(clientHeight-130);
       }
     });
 
