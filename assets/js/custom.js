@@ -128,6 +128,10 @@ jQuery(function ($) {
       $('.fullHeightHeader').height(clientHeight);
       $('.fullHeightNoMenu').height(clientHeight-130);
     }
+    else{
+      $('.fullHeightHeader').css("height", "");
+      $('.fullHeightNoMenu').css("height", "");
+    }
     
     $(window).resize(function () {
       clientHeight = $(window).height();
@@ -136,6 +140,10 @@ jQuery(function ($) {
       if (width > 768) {
         $('.fullHeightHeader').height(clientHeight);
         $('.fullHeightNoMenu').height(clientHeight-130);
+      }
+      else{
+        $('.fullHeightHeader').css("height", "");
+        $('.fullHeightNoMenu').css("height", "");
       }
     });
 
