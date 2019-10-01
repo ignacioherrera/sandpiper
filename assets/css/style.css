@@ -669,7 +669,7 @@ section {
 .btn-cta:hover {
   background-color: #0070f3;
   color: #fff !important;
-  box-shadow: #0070f340 0 5px 10px;
+  box-shadow: #00000040 0 5px 10px;
   border: 2px solid transparent !important;
   outline: none;
   text-decoration: none !important;
@@ -1151,14 +1151,14 @@ footer p {
 }
 .carousel-link {
   display: flex;
-  box-shadow: #0070f340 0 5px 10px;
+  box-shadow: #00000040 0 5px 10px;
   padding: 20px;
   border-radius: 15px;
   height: 100%;
   
 }
 .carousel-link.active{
-  box-shadow: #0070f340 0 5px 30px;
+  box-shadow: #00000040 0 5px 30px;
   text-decoration: none;
 }
 .carousel-link.active h3, .carousel-link.active h4, .carousel-link.active p, .carousel-link:hover h3, .carousel-link:hover h4, .carousel-link:hover p{
@@ -1166,7 +1166,7 @@ footer p {
 }
 
 .carousel-link:hover{
-  box-shadow: #0070f340 0 5px 30px;
+  box-shadow: #00000040 0 5px 30px;
   text-decoration: none;
 }
 .carousel-link svg .c, .carousel-link svg .d{
@@ -1425,10 +1425,10 @@ footer p {
   padding: 0 20px;
 }
 .review:hover {
-  box-shadow: #0070f340 0 5px 30px;
+  box-shadow: #00000040 0 5px 30px;
 }
 .review {
-  box-shadow: #0070f340 0 5px 10px;
+  box-shadow: #00000040 0 5px 10px;
   padding: 60px 40px;
   border-radius: 15px;
 }
@@ -1710,7 +1710,7 @@ footer p {
 }
 
 .form .submit-button:hover {
-  box-shadow: #0070f340 0 5px 10px;
+  box-shadow: #00000040 0 5px 10px;
 }
 
 .form .submit-button:focus,
