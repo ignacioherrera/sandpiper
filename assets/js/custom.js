@@ -138,17 +138,24 @@ jQuery(function ($) {
 
 
     //gallery section
-    $(".carousel-link").click(function(event){
-        event.preventDefault();
-        var href = $(this).attr("href");
-        $('.gallery-container .active').removeClass('active');
-        $(href).addClass('active');
-    });
-    $(".img-gallery").click(function(event){
-      $('.gallery-container .active').removeClass('active');
+    $(".carousel-link").click(function (event) {
+      event.preventDefault();
+      var href = $(this).attr("href");
+      $('.gallery-container .active, .carousel-link.active').removeClass('active');
+      $(href).addClass('active');
       $(this).addClass('active');
-  });
-    
+    });
+    $(".img-gallery").click(function (event) {
+      $('.gallery-container .active, .carousel-link.active').removeClass('active');
+      $(this).addClass('active');
+      var id = $(this).attr("id");
+      $('.carousel-link').each(function (index,element) {
+        if ($(element).attr("href") === '#'+id) {
+          $(element).addClass("active");
+        }
+      });
+    });
+
 
 
 
