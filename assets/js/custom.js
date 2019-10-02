@@ -6,21 +6,6 @@ jQuery(function ($) {
   // get the value of the bottom of the #main element by adding the offset of that element plus its height, set it as a variable
   var mainbottom = $('#main').offset().top;
 
-  // on scroll,
-  $(window).on('scroll', function () {
-
-    // we round here to reduce a little workload
-    stop = Math.round($(window).scrollTop());
-    if (stop > mainbottom) {
-      $('.navbar').addClass('past-main');
-      $('.navbar').addClass('effect-main')
-    } else {
-      $('.navbar').removeClass('past-main');
-    }
-
-  });
-
-
   // Collapse navbar on click
 
   $(document).on('click.nav', '.navbar-collapse.in', function (e) {
@@ -28,41 +13,6 @@ jQuery(function ($) {
       $(this).removeClass('in').addClass('collapse');
     }
   });
-
-
-  /*-----------------------------------
-  ----------- Scroll To Top -----------
-  ------------------------------------*/
-
-  $(window).on('scroll', function () {
-    if ($(this).scrollTop() > 1000) {
-      $('#back-top').fadeIn();
-    } else {
-      $('#back-top').fadeOut();
-    }
-  });
-  // scroll body to 0px on click
-  $('#back-top').on('click', function () {
-    $('#back-top').tooltip('hide');
-    $('body,html').animate({
-      scrollTop: 0
-    }, 1500);
-    return false;
-  });
-
-
-  /*-------- Owl Carousel ---------- */
-
-  $(".review-cards").owlCarousel({
-    slideSpeed: 200,
-    items: 1,
-    singleItem: true,
-    autoplay: true,
-    autoplayTimeout: 2000,
-    autoplayHoverPause: true,
-    pagination: false,
-  });
-
 
   /* ------ jQuery for Easing min -- */
   (function ($) {
@@ -96,18 +46,6 @@ jQuery(function ($) {
   })(jQuery); // End of use strict
 
 
-  /* --------- Wow Init ------ */
-
-  new WOW().init();
-
-
-  /* ----- Counter Up ----- */
-
-  $('.counter').counterUp({
-    delay: 10,
-    time: 1000
-  });
-
   /*----- Preloader ----- */
 
   $(window).on('load', function () {
@@ -124,7 +62,8 @@ jQuery(function ($) {
     var clientHeight = $(window).height();
     var width = $(window).width();
     //Header al 100% de la pantalla del cliente
-    if (width >= 768) {
+    console.log(clientHeight, width);
+    if (width >= 768 && width>= clientHeight) {
       $('.fullHeightHeader').height(clientHeight);
       $('.fullHeightNoMenu').height(clientHeight-130);
     }
@@ -137,7 +76,7 @@ jQuery(function ($) {
       clientHeight = $(window).height();
       width = $(window).width();
       //Header al 100% de la pantalla del cliente
-      if (width > 768) {
+      if (width > 768 && width>= clientHeight) {
         $('.fullHeightHeader').height(clientHeight);
         $('.fullHeightNoMenu').height(clientHeight-130);
       }
@@ -166,15 +105,6 @@ jQuery(function ($) {
         }
       });
     });
-
-
-
-
-
-
-
-
-
 
 
 

@@ -546,8 +546,8 @@ section {
   margin: 20px 0;
 }
 .header-img {
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
 }
 .home h1 {
   font-size: 50px;
@@ -1868,61 +1868,13 @@ footer p {
   display: table;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
-.bk-top-txt {
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-}
-
-.back-to-top {
-  font-family: "Roboto", sans-serif;
-  font-size: 12px;
-  font-weight: 700;
-  color: #ffffff;
-  text-decoration: none;
-  -webkit-transition: 200ms;
-  -moz-transition: 200ms;
-  -o-transition: 200ms;
-  transition: 200ms;
-}
-
-.back-to-top:hover {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 13px;
-}
-
-.back-to-top:focus {
-  color: #ffffff;
-}
-
-.counter {
-  font-size: 75px;
-  font-weight: 900;
-}
-
 /*------------------------------------------
 -------------- Media Queries ---------------
 ------------------------------------------*/
 @media only screen and (min-width: 767.5px) and (max-width: 1108px) {
-  .counter {
-    font-size: 60px !important;
-    font-weight: 900;
-    color: #fff;
-  }
   .home h1 {
     font-size: 40px;
     line-height: 42px;
-  }
-
-  .counter-up .counter-text h3 {
-    font-size: 18px !important;
-    font-weight: 700;
-    padding: 0.5em;
-    letter-spacing: 0;
-    line-height: 24px !important;
-    color: #fff;
   }
 }
 @media only screen and (min-width: 768px) {
@@ -2122,13 +2074,16 @@ footer p {
     padding: 0 100px 0 50px;
   }
 }
-
-@media screen and (max-width: 767.9px) {
+@media screen and (min-width: 767.9px) and (min-aspect-ratio:4/3) {
  
   .header-img {
-    width: 100% !important;
-    height: auto !important;
+    width: auto !important;
+    height: 100% !important;
   }
+}
+@media screen and (max-width: 767.9px) {
+ 
+  
   .header-back {
     background: rgba(0, 73, 133, 1);
     background: -moz-linear-gradient(top, rgba(0, 73, 133, 1) 0%, rgba(79, 137, 181, 1) 100%);
@@ -2144,12 +2099,6 @@ footer p {
 @media screen and (max-width: 450px) {
   .mr-50 {
     margin-right: 10px !important;
-  }
-  .counter {
-    font-size: 60px !important;
-  }
-  .counter-up .counter-text h3 {
-    font-size: 18px !important;
   }
 }
 
