@@ -1877,6 +1877,12 @@ footer p {
     line-height: 42px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .f-center {
+    margin-top: -30px !important;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   .f-center {
     margin-top: -50px;
